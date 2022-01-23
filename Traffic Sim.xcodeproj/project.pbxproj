@@ -9,24 +9,40 @@
 /* Begin PBXBuildFile section */
 		733C07E7272B40EC0024FA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C07E6272B40EC0024FA4F /* AppDelegate.swift */; };
 		733C07E9272B40EC0024FA4F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 733C07E8272B40EC0024FA4F /* GameScene.sks */; };
-		733C07EB272B40EC0024FA4F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 733C07EA272B40EC0024FA4F /* Actions.sks */; };
 		733C07ED272B40EC0024FA4F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C07EC272B40EC0024FA4F /* GameScene.swift */; };
 		733C07EF272B40EC0024FA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C07EE272B40EC0024FA4F /* ViewController.swift */; };
 		733C07F1272B40EE0024FA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733C07F0272B40EE0024FA4F /* Assets.xcassets */; };
 		733C07F4272B40EE0024FA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733C07F2272B40EE0024FA4F /* Main.storyboard */; };
+		733C0802272B82D80024FA4F /* Road.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C0801272B82D80024FA4F /* Road.swift */; };
+		733C080C27336CB90024FA4F /* AutonomousCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C080B27336CB90024FA4F /* AutonomousCar.swift */; };
+		73439C2427727C16003EF3D0 /* HumanCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73439C2327727C16003EF3D0 /* HumanCar.swift */; };
+		73439C2827727C52003EF3D0 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73439C2727727C52003EF3D0 /* Car.swift */; };
+		73439C2F278A1667003EF3D0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73439C2E278A1667003EF3D0 /* DataManager.swift */; };
+		734929BE27596BC200B982D1 /* TrafficLightColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734929BD27596BC200B982D1 /* TrafficLightColors.swift */; };
+		734929C12759A60C00B982D1 /* Group 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 734929C02759A60C00B982D1 /* Group 1.png */; };
+		734929C42759A66600B982D1 /* Group 1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 734929C32759A66600B982D1 /* Group 1-1.png */; };
+		734929CA275E8D4F00B982D1 /* CarProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734929C9275E8D4F00B982D1 /* CarProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		733C07E3272B40EC0024FA4F /* Traffic Sim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Sim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733C07E6272B40EC0024FA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		733C07E8272B40EC0024FA4F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		733C07EA272B40EC0024FA4F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		733C07EC272B40EC0024FA4F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		733C07EE272B40EC0024FA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		733C07F0272B40EE0024FA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		733C07F3272B40EE0024FA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		733C07F5272B40EE0024FA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		733C07F6272B40EE0024FA4F /* Traffic_Sim.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Traffic_Sim.entitlements; sourceTree = "<group>"; };
+		733C0801272B82D80024FA4F /* Road.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Road.swift; sourceTree = "<group>"; };
+		733C080B27336CB90024FA4F /* AutonomousCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutonomousCar.swift; sourceTree = "<group>"; };
+		73439C2327727C16003EF3D0 /* HumanCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanCar.swift; sourceTree = "<group>"; };
+		73439C2727727C52003EF3D0 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		73439C2E278A1667003EF3D0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		734929BD27596BC200B982D1 /* TrafficLightColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightColors.swift; sourceTree = "<group>"; };
+		734929C02759A60C00B982D1 /* Group 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 1.png"; path = "../../../Downloads/Group 1.png"; sourceTree = "<group>"; };
+		734929C32759A66600B982D1 /* Group 1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Group 1-1.png"; path = "../../../Downloads/Group 1-1.png"; sourceTree = "<group>"; };
+		734929C9275E8D4F00B982D1 /* CarProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarProperties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +77,21 @@
 			children = (
 				733C07E6272B40EC0024FA4F /* AppDelegate.swift */,
 				733C07E8272B40EC0024FA4F /* GameScene.sks */,
-				733C07EA272B40EC0024FA4F /* Actions.sks */,
 				733C07EC272B40EC0024FA4F /* GameScene.swift */,
 				733C07EE272B40EC0024FA4F /* ViewController.swift */,
 				733C07F0272B40EE0024FA4F /* Assets.xcassets */,
+				734929C32759A66600B982D1 /* Group 1-1.png */,
+				734929C02759A60C00B982D1 /* Group 1.png */,
 				733C07F2272B40EE0024FA4F /* Main.storyboard */,
 				733C07F5272B40EE0024FA4F /* Info.plist */,
 				733C07F6272B40EE0024FA4F /* Traffic_Sim.entitlements */,
+				733C0801272B82D80024FA4F /* Road.swift */,
+				733C080B27336CB90024FA4F /* AutonomousCar.swift */,
+				734929BD27596BC200B982D1 /* TrafficLightColors.swift */,
+				734929C9275E8D4F00B982D1 /* CarProperties.swift */,
+				73439C2327727C16003EF3D0 /* HumanCar.swift */,
+				73439C2727727C52003EF3D0 /* Car.swift */,
+				73439C2E278A1667003EF3D0 /* DataManager.swift */,
 			);
 			path = "Traffic Sim";
 			sourceTree = "<group>";
@@ -129,9 +153,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734929C12759A60C00B982D1 /* Group 1.png in Resources */,
 				733C07E9272B40EC0024FA4F /* GameScene.sks in Resources */,
 				733C07F1272B40EE0024FA4F /* Assets.xcassets in Resources */,
-				733C07EB272B40EC0024FA4F /* Actions.sks in Resources */,
+				734929C42759A66600B982D1 /* Group 1-1.png in Resources */,
 				733C07F4272B40EE0024FA4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,9 +168,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73439C2427727C16003EF3D0 /* HumanCar.swift in Sources */,
 				733C07EF272B40EC0024FA4F /* ViewController.swift in Sources */,
+				73439C2827727C52003EF3D0 /* Car.swift in Sources */,
 				733C07ED272B40EC0024FA4F /* GameScene.swift in Sources */,
+				734929BE27596BC200B982D1 /* TrafficLightColors.swift in Sources */,
 				733C07E7272B40EC0024FA4F /* AppDelegate.swift in Sources */,
+				733C080C27336CB90024FA4F /* AutonomousCar.swift in Sources */,
+				73439C2F278A1667003EF3D0 /* DataManager.swift in Sources */,
+				733C0802272B82D80024FA4F /* Road.swift in Sources */,
+				734929CA275E8D4F00B982D1 /* CarProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
